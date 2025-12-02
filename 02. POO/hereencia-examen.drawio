@@ -1,0 +1,45 @@
+<mxfile host="65bd71144e">
+    <diagram id="RMcpudyg3jQDn6S9F-y0" name="Página-1">
+        <mxGraphModel dx="397" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Persona" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#FFFFFF;rounded=1;glass=0;shadow=1;gradientColor=none;swimlaneFillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="110" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="- nombre&lt;br&gt;- apellido&lt;br&gt;- cedula&lt;br&gt;- fecha_nacimiento&lt;br&gt;- direccion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;" vertex="1" parent="2">
+                    <mxGeometry y="29" width="140" height="91" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.478;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;endArrow=block;endFill=0;endSize=10;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Docente" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#FFFFFF;rounded=1;shadow=1;glass=0;swimlaneFillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="290" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="- reg_profesional&lt;br&gt;- especialidad {Ingeniería,&lt;br&gt;&amp;nbsp; Economía, C. Políticas}&lt;br&gt;- anios_experiencia&lt;br&gt;- universidades [ ]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;" vertex="1" parent="5">
+                    <mxGeometry y="29" width="150" height="91" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.607;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;endArrow=block;endFill=0;endSize=10;" edge="1" parent="1" source="10" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Estudiante" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#FFFFFF;swimlaneFillColor=default;shadow=1;glass=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="290" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;background-color: initial;&quot;&gt;- cod_universitario&lt;br&gt;- carrera&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;" vertex="1" parent="10">
+                    <mxGeometry y="29" width="140" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Carrera" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;shadow=1;glass=0;strokeColor=#c8c4d4;fillColor=#6a00ff;fontColor=#ffffff;swimlaneFillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="280" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="- nombre&lt;br&gt;- anios_estudio&lt;br&gt;- nivel {técnico medio,&lt;br&gt;&amp;nbsp; técnico superior,&lt;br&gt;&amp;nbsp; licenciatura}" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=0;fillColor=none;strokeColor=none;" vertex="1" parent="14">
+                    <mxGeometry y="29" width="140" height="121" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;shadow=1;endArrow=open;endFill=0;entryX=1.017;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="570" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
